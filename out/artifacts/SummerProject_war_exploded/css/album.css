@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 2em auto;
+    padding: 1em;
+    border: 0.1em solid black;
+    border-radius: 2em;
+}
+.fav {
+    align-self: flex-start;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 0 0 0.5em 1em;
+}
+.tracks {
+    align-self: flex-start;
+    margin-left: 1.3em;
+    margin-bottom: 0.5em;
+}
+.tracks a {
+    color: darkblue;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
+}
+.tip {
+    width: auto;
+    margin: 2em auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20pt;
+}
+.block {
+    display: flex;
+    align-items: center;
+    margin: 0.1em 0;
+    padding: 1em 2em;
+    background-color: #f6f6f6;
+}
+.block:nth-child(even) {
+    background-color: #b9b9b9;
+}
+.block:nth-child(odd) [type="submit"] {
+    background-color: #b9b9b9;
+    color: #f6f6f6;
+}
+.block img {
+    width: 10em;
+    height: 10em;
+    object-fit: none;
+    padding: 0.2em;
+}
+.content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em 0 2em;
+}
+.content .title {
+    align-self: flex-start;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15pt;
+    margin-bottom: 1em;
+}
+.content .info {
+    font-family: Garamond, serif;
+    font-size: 13pt;
+    margin-bottom: 0.5em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.button {
+    width: 80%;
+}
+.button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.button [name="tool"] {
+    display: none;
+}
+.button [name="deleteTool"] {
+    display: none;
+}
+.button [type="submit"] {
+    width: 8em;
+    height: 2em;
+    border: 1.5px solid black;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15pt;
+    cursor: pointer;
+    background-color: #f6f6f6;
+    color: #b9b9b9;
+}
+.page {
+    margin: 1em auto;
+}
+.page a {
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+    font-weight: bold;
+}
+.pageButton {
+    margin: 0.8em auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16pt;
+    cursor: pointer;
+}
+.pageButton > div {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}

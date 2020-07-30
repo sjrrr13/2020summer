@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapBox {
+    margin: 1.3em auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    width: 85%;
+    background-color: #f0f8ff;
+    border-radius: 3em;
+}
+.wrap {
+    position: relative;
+    overflow: hidden;
+    width: 54em;
+    height: 36em;
+    margin: 0 auto;
+}
+.wrapImages {
+    position: relative;
+    width: 162em;
+    height: 36em;
+}
+.wrapImages img, .wrapImages a {
+    float: left;
+    width: 54em;
+    height: 36em;
+}
+.buttons{
+    position: absolute;
+    bottom: 1em;
+    right: 2em;
+}
+.buttons span{
+    display: inline-block;
+    z-index: 10;
+    width: 0.7em;
+    height: 0.7em;
+    margin: 0 0.6em;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em;
+    width: 20em;
+    height: 20em;
+    padding: 0.6em;
+    background-color: #f0f8ff;
+    border-radius: 1em;
+}
+.block a {
+    cursor: pointer;
+}
+.block img {
+    width: 17em;
+    height: 16em;
+    object-fit: none;
+    border-radius: 0.5em;
+}
+.block div {
+    align-self: flex-start;
+    text-decoration: none;
+    color: black;
+}
+.title {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 17pt;
+}
+.block .info {
+    font-family: Garamond, serif;
+    font-size: 14pt;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+    color: white;
+    width: 100%;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 13pt;
+}
+footer img {
+    width: 6em;
+    height: 6em;
+}
+footer div {
+    margin: 1.5em 8em;
+}

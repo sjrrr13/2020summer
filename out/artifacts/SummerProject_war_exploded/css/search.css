@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.search {
+    margin: 1em auto;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    width: 95%;
+    height: 4em;
+    background-color: #f6f6f6;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border-radius: 0.2em;
+}
+.search form {
+    display: flex;
+    border-radius: 1em;
+}
+.search .input {
+    width: 40%;
+}
+#break {
+    margin: auto 1.5em;
+    font-size: 25pt;
+}
+.search [type="search"] {
+    width: 70%;
+    height: 2em;
+    border: 0.1em solid black;
+    border-radius: 0.5em;
+    background-color: white;
+}
+.search [type="image"] {
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+.search .radio {
+    margin-top: 0.7em;
+    width: 24%;
+    font-size: 13pt;
+    display: flex;
+    justify-content: space-between;
+}
+.result {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 2em auto;
+    padding: 0.5em 1em;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    box-shadow: darkgrey 0.1em 0.1em 1em 0.1em;
+}
+.container {
+    margin: 0.5em 0;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f6f6f6;
+}
+.container:nth-child(even) {
+    background-color: #b9b9b9;
+}
+.container img, .container a {
+    width: 7em;
+    height: 7em;
+}
+.container .info {
+    align-self: center;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.info .title {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 17pt;
+}
+.info .country, .info .city, .info .hot {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15pt;
+}
+.info .description {
+    font-family: Garamond, serif;
+    font-size: 15pt;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+.button {
+    margin: 0.8em auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16pt;
+    cursor: pointer;
+}
+.button > div {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.noResult {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 25pt;
+    margin: 2em auto;
+}

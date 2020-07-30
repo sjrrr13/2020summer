@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.tip {
+    margin: 1em 3em;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.tip a {
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+    font-weight: normal;
+}
+section {
+    width: 90%;
+    margin: 1em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.block {
+    margin: 0.5em 3em;
+    width: 30%;
+    display: flex;
+    align-items: start;
+    padding: 0.5em 2em;
+    background-color: #f6f6f6;
+}
+.block img, .block a {
+    width: 5em;
+    height: 5em;
+}
+.block .title {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16pt;
+    margin-left: 2em;
+}

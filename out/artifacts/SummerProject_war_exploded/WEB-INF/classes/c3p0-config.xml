@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--<faces-config xmlns="http://java.sun.com/xml/ns/javaee"-->
+<!--              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"-->
+<!--              version="2.0">-->
+<!--</faces-config>-->
+
+<c3p0-config>
+<named-config name="project">
+
+    <property name="user">root</property>
+    <property name="password">Sjr830601</property>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/project</property>
+
+    <property name="acquireIncrement">5</property>
+    <property name="initialPoolSize">5</property>
+    <property name="minPoolSize">5</property>
+    <property name="maxPoolSize">10</property>
+
+    <property name="maxStatements">10</property>
+    <property name="maxStatementsPerConnection">5</property>
+
+</named-config>
+</c3p0-config>

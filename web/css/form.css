@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../image/icon/loginBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    border: 0 solid;
+    border-radius: 1em;
+    margin: 5em 35% 1em 35%;
+    padding: 1em;
+    background-color: rgba(256, 256, 256, 0.3);
+}
+.tip {
+    margin-top: 0.5em;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.inputBox {
+    align-self: center;
+    margin: 1em 0;
+    border: 0.15em solid grey;
+    border-radius: 0.3em;
+    height: 2.5em;
+    width: 90%
+}
+#reminder {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+#submitBtn {
+    margin-bottom: 0.5em;
+    padding: 0.5em 0;
+    align-self: center;
+    background-color: #c0c0c0;
+    border: 0.1em solid #c0c0c0;
+    border-radius: 0.2em;
+    width: 50%;
+    color: white;
+    font-size: 16pt;
+    cursor: pointer;
+}
+#submitBtn:hover {
+    background-color: #808080;
+    border-color: #808080;
+}
+.help {
+    font-size: 15pt;
+    align-self: center;
+    color: #c0c0c0;
+}
+.help a {
+    color: #c0c0c0;
+}
+.help a:hover {
+    color: white;
+}
+
+
+
+
+

@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 2.5em;
+    background-color: #424242;
+}
+footer label {
+    align-self: center;
+    color: white;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 13pt;
+}
